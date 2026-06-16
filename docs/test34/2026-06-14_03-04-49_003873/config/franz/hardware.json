@@ -1,0 +1,295 @@
+{
+    "motherboard": {
+        "bios": {
+            "date": "01/20/2026",
+            "vendor": "American Megatrends International, LLC.",
+            "version": "2.2"
+        },
+        "model": "X12SDV-8C-SP6F",
+        "vendor": "Supermicro",
+        "revision": "1.10"
+    },
+    "processor": [
+        {
+            "slot": "CPU",
+            "cores": 8,
+            "model": "Xeon D-1736NT @ 2.70GHz",
+            "vendor": "Intel",
+            "threads": 16,
+            "version": "6.108.1",
+            "microcode": "16777969",
+            "virtualized": false,
+            "architecture": "64bit"
+        }
+    ],
+    "memory": {
+        "dimms": [
+            {
+                "slot": "DIMMA1",
+                "type": "DDR4",
+                "empty": false,
+                "model": "36ASF8G72PZ-3G2F1",
+                "serial": "S802C0F22393B748470",
+                "vendor": "Micron Technology",
+                "capacity_bytes": 68719476736,
+                "maximum_speed_val": 3200,
+                "capacity_human_val": 64,
+                "maximum_speed_unit": "MHz",
+                "capacity_human_unit": "GiB",
+                "operational_speed_val": 2666,
+                "operational_speed_unit": "MHz"
+            },
+            {
+                "slot": "DIMMA2",
+                "type": "DDR4",
+                "empty": false,
+                "model": "36ASF8G72PZ-3G2F1",
+                "serial": "S802C0F22393B7484E0",
+                "vendor": "Micron Technology",
+                "capacity_bytes": 68719476736,
+                "maximum_speed_val": 3200,
+                "capacity_human_val": 64,
+                "maximum_speed_unit": "MHz",
+                "capacity_human_unit": "GiB",
+                "operational_speed_val": 2666,
+                "operational_speed_unit": "MHz"
+            },
+            {
+                "slot": "DIMMB1",
+                "type": "DDR4",
+                "empty": false,
+                "model": "36ASF8G72PZ-3G2F1",
+                "serial": "S802C0F22393B7484C4",
+                "vendor": "Micron Technology",
+                "capacity_bytes": 68719476736,
+                "maximum_speed_val": 3200,
+                "capacity_human_val": 64,
+                "maximum_speed_unit": "MHz",
+                "capacity_human_unit": "GiB",
+                "operational_speed_val": 2666,
+                "operational_speed_unit": "MHz"
+            },
+            {
+                "slot": "DIMMB2",
+                "type": "DDR4",
+                "empty": false,
+                "model": "36ASF8G72PZ-3G2F1",
+                "serial": "S802C0F22393B748448",
+                "vendor": "Micron Technology",
+                "capacity_bytes": 68719476736,
+                "maximum_speed_val": 3200,
+                "capacity_human_val": 64,
+                "maximum_speed_unit": "MHz",
+                "capacity_human_unit": "GiB",
+                "operational_speed_val": 2666,
+                "operational_speed_unit": "MHz"
+            }
+        ],
+        "dimm_slots": 4,
+        "ecc_details": "Single-bit ECC",
+        "ecc_support": true,
+        "maximum_capacity_bytes": 274877906944,
+        "installed_capacity_bytes": 274877906944,
+        "maximum_capacity_human_val": 256,
+        "maximum_capacity_human_unit": "GiB",
+        "installed_capacity_human_val": 256,
+        "installed_capacity_human_unit": "GiB"
+    },
+    "storage": [
+        {
+            "model": "NVMe disk",
+            "serial": null,
+            "vendor": null,
+            "version": null,
+            "dev_name": "hwmon0",
+            "size_bytes": null,
+            "bus_address": null,
+            "size_human_val": null,
+            "size_human_unit": null
+        },
+        {
+            "model": "NVMe disk",
+            "serial": null,
+            "vendor": null,
+            "version": null,
+            "dev_name": "/dev/ng0n1",
+            "size_bytes": null,
+            "bus_address": null,
+            "size_human_val": null,
+            "size_human_unit": null
+        },
+        {
+            "model": "MZVL2256HCHQ-00B00",
+            "serial": "S674NX0TB61228",
+            "vendor": "Samsung",
+            "version": "GXA7601Q",
+            "dev_name": "/dev/nvme0",
+            "size_bytes": 256060514304,
+            "bus_address": "pci@0000:05:00.0",
+            "size_human_val": 256.060514304,
+            "size_human_unit": "GB"
+        }
+    ],
+    "graphics": [],
+    "network": [
+        {
+            "model": "I210 Gigabit",
+            "vendor": "Intel",
+            "version": "03",
+            "firmware": "3.30, 0x8000079c",
+            "interfaces": [
+                {
+                    "mac": "3c:ec:ef:dc:e8:2a",
+                    "dev_name": "eno1",
+                    "bus_address": "pci@0000:02:00.0",
+                    "current_configuration": {
+                        "link_detected": true,
+                        "link_speed_val": 1,
+                        "link_speed_unit": "Gbit/s",
+                        "transceiver_type": "Internal transceiver",
+                        "transceiver_model": null,
+                        "transceiver_modes": [
+                            "10baseT/Half",
+                            "10baseT/Full",
+                            "100baseT/Half",
+                            "100baseT/Full",
+                            "1000baseT/Full"
+                        ],
+                        "transceiver_medium": "Twisted Pair Cable",
+                        "transceiver_serial": null,
+                        "transceiver_revision": null
+                    }
+                }
+            ],
+            "bus_address": "pci@0000:02:00.0"
+        },
+        {
+            "model": "I210 Gigabit",
+            "vendor": "Intel",
+            "version": "03",
+            "firmware": "3.30, 0x80000777",
+            "interfaces": [
+                {
+                    "mac": "3c:ec:ef:dc:e8:2b",
+                    "dev_name": "eno2",
+                    "bus_address": "pci@0000:03:00.0",
+                    "current_configuration": {
+                        "link_detected": false,
+                        "link_speed_val": null,
+                        "link_speed_unit": null,
+                        "transceiver_type": "Internal transceiver",
+                        "transceiver_model": null,
+                        "transceiver_modes": [
+                            "10baseT/Half",
+                            "10baseT/Full",
+                            "100baseT/Half",
+                            "100baseT/Full",
+                            "1000baseT/Full"
+                        ],
+                        "transceiver_medium": "Twisted Pair Cable",
+                        "transceiver_serial": null,
+                        "transceiver_revision": null
+                    }
+                }
+            ],
+            "bus_address": "pci@0000:03:00.0"
+        },
+        {
+            "model": "I350 Gigabit",
+            "vendor": "Intel",
+            "version": "01",
+            "firmware": "1.63, 0x800009fb",
+            "interfaces": [
+                {
+                    "mac": "3c:ec:ef:dc:e8:2c",
+                    "dev_name": "eno5",
+                    "bus_address": "pci@0000:04:00.0",
+                    "current_configuration": {
+                        "link_detected": true,
+                        "link_speed_val": 1,
+                        "link_speed_unit": "Gbit/s",
+                        "transceiver_type": "Internal transceiver",
+                        "transceiver_model": null,
+                        "transceiver_modes": [
+                            "10baseT/Half",
+                            "10baseT/Full",
+                            "100baseT/Half",
+                            "100baseT/Full",
+                            "1000baseT/Full"
+                        ],
+                        "transceiver_medium": "Twisted Pair Cable",
+                        "transceiver_serial": null,
+                        "transceiver_revision": null
+                    }
+                },
+                {
+                    "mac": "3c:ec:ef:dc:e8:2d",
+                    "dev_name": "eno6",
+                    "bus_address": "pci@0000:04:00.1",
+                    "current_configuration": {
+                        "link_detected": true,
+                        "link_speed_val": 1,
+                        "link_speed_unit": "Gbit/s",
+                        "transceiver_type": "Internal transceiver",
+                        "transceiver_model": null,
+                        "transceiver_modes": [
+                            "10baseT/Half",
+                            "10baseT/Full",
+                            "100baseT/Half",
+                            "100baseT/Full",
+                            "1000baseT/Full"
+                        ],
+                        "transceiver_medium": "Twisted Pair Cable",
+                        "transceiver_serial": null,
+                        "transceiver_revision": null
+                    }
+                }
+            ],
+            "bus_address": "pci@0000:04:00.{0,1}"
+        },
+        {
+            "model": "E823-L for SFP",
+            "vendor": "Intel",
+            "version": "00",
+            "firmware": "3.09 0x80019c38 1.3346.0",
+            "interfaces": [
+                {
+                    "mac": "3c:ec:ef:dc:eb:70",
+                    "dev_name": "eno3np0",
+                    "bus_address": "pci@0000:f4:00.0",
+                    "current_configuration": {
+                        "link_detected": true,
+                        "link_speed_val": 10,
+                        "link_speed_unit": "Gbit/s",
+                        "transceiver_type": "SFP",
+                        "transceiver_model": "P.1396.10",
+                        "transceiver_modes": [
+                            "1000baseX/Full",
+                            "10000baseLR/Full"
+                        ],
+                        "transceiver_medium": "Optical Fiber",
+                        "transceiver_serial": "F78TKBN",
+                        "transceiver_revision": "A"
+                    }
+                },
+                {
+                    "mac": "3c:ec:ef:dc:eb:71",
+                    "dev_name": "eno4np2",
+                    "bus_address": "pci@0000:f4:00.2",
+                    "current_configuration": {
+                        "link_detected": false,
+                        "link_speed_val": null,
+                        "link_speed_unit": null,
+                        "transceiver_type": "No pluggable transceiver found",
+                        "transceiver_model": null,
+                        "transceiver_modes": null,
+                        "transceiver_medium": null,
+                        "transceiver_serial": null,
+                        "transceiver_revision": null
+                    }
+                }
+            ],
+            "bus_address": "pci@0000:f4:00.{0,2}"
+        }
+    ]
+}

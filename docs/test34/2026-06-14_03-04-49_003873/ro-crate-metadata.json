@@ -1,0 +1,193 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.2/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0002-5378-3905"
+                }
+            ],
+            "conformsTo": {
+                "@id": "https://erh.pages.gitlab.lrz.de/rise-ro-crate-profile/0.5.3/"
+            },
+            "contributor": [
+                {
+                    "@id": "https://credit.niso.org/contributor-roles/investigation/"
+                }
+            ],
+            "dateCreated": "2026-06-14T03:04:49.044890",
+            "dateModified": "2026-06-14T03:04:49.141747",
+            "datePublished": "2026-06-14T01:04:49+00:00",
+            "description": "Results from an experiment executed with the pos controller.",
+            "hasPart": [
+                {
+                    "@id": "config/franz/hardware.json"
+                },
+                {
+                    "@id": "config/allocation.json"
+                },
+                {
+                    "@id": "config/franz/topology.json"
+                },
+                {
+                    "@id": "config/franz/topology.pdf"
+                }
+            ],
+            "keywords": [
+                "experiment",
+                "reproducibility"
+            ],
+            "mainEntity": {
+                "@id": "config/allocation.json"
+            },
+            "name": "pos experiment"
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.2"
+            }
+        },
+        {
+            "@id": "https://doi.org/10.1145/3485983.3494841",
+            "@type": "CreativeWork",
+            "alternateName": "pos",
+            "citation": "https://doi.org/10.1145/3485983.3494841",
+            "description": "The pos Framework: A Methodology and Toolchain for Reproducible Network Experiments",
+            "name": "Plain Orchestrating Service",
+            "version": "3.0.0"
+        },
+        {
+            "@id": "https://www.nationalarchives.gov.uk/PRONOM/fmt/817",
+            "@type": [
+                "WebPage",
+                "Standard"
+            ],
+            "name": "JSON Data Format"
+        },
+        {
+            "@id": "https://www.nationalarchives.gov.uk/PRONOM/fmt/19",
+            "@type": [
+                "WebPage",
+                "Standard"
+            ],
+            "name": "Acrobat PDF 1.5"
+        },
+        {
+            "@id": "https://erh.pages.gitlab.lrz.de/rise-ro-crate-profile/0.5.3/",
+            "@type": [
+                "CreativeWork",
+                "Profile"
+            ],
+            "alternateName": "RISE RO-Crate Profile",
+            "name": "Research Infrastructure Shareable Experiments RO-Crate Profile",
+            "version": "0.5.3"
+        },
+        {
+            "@id": "https://ror.org/02kkvpp62",
+            "@type": "Organization",
+            "location": "Munich, Germany",
+            "name": "Technical University of Munich",
+            "url": "https://www.tum.de"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5378-3905",
+            "@type": "Person",
+            "affiliation": {
+                "@id": "https://ror.org/02kkvpp62"
+            },
+            "alternateName": "erhauser",
+            "familyName": "Hauser",
+            "givenName": "Eric",
+            "name": "Eric Hauser"
+        },
+        {
+            "@id": "https://credit.niso.org/contributor-roles/investigation/",
+            "@type": "Role",
+            "contributor": [
+                {
+                    "@id": "https://orcid.org/0000-0002-5378-3905"
+                }
+            ],
+            "description": "Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection.",
+            "roleName": "Investigation",
+            "url": "https://credit.niso.org/contributor-roles/investigation/"
+        },
+        {
+            "@id": "config/franz/hardware.json",
+            "@type": "File",
+            "contentSize": "10999",
+            "dateCreated": "2026-06-14T03:04:49.066971",
+            "dateModified": "2026-06-14T03:04:49.066971",
+            "description": "Hardware metadata for testbed node franz.",
+            "encodingFormat": {
+                "@id": "https://www.nationalarchives.gov.uk/PRONOM/fmt/817"
+            },
+            "name": "Hardware of testbed node franz"
+        },
+        {
+            "@id": "config/allocation.json",
+            "@type": "Experiment",
+            "dateCreated": "2026-06-14T03:04:49.004326",
+            "dateModified": "2026-06-14T03:04:49.131601",
+            "encodingFormat": "application/json",
+            "executedCommands": [],
+            "experimentController": [
+                {
+                    "@id": "https://doi.org/10.1145/3485983.3494841"
+                }
+            ],
+            "experimentNodes": [
+                {
+                    "@id": "franz.bavaria.net.cit.tum.de"
+                }
+            ],
+            "name": "erhauser_260614_030449_003873"
+        },
+        {
+            "@id": "config/franz/topology.json",
+            "@type": "File",
+            "contentSize": "948",
+            "dateCreated": "2026-06-14T03:04:49.134135",
+            "dateModified": "2026-06-14T03:04:49.134135",
+            "description": "Network topology metadata for testbed node franz.",
+            "encodingFormat": {
+                "@id": "https://www.nationalarchives.gov.uk/PRONOM/fmt/817"
+            },
+            "name": "Network topology of testbed node franz"
+        },
+        {
+            "@id": "config/franz/topology.pdf",
+            "@type": "File",
+            "contentSize": "53381",
+            "dateCreated": "2026-06-14T03:04:49.136691",
+            "dateModified": "2026-06-14T03:04:49.136691",
+            "description": "Network topology figure for testbed node franz.",
+            "encodingFormat": {
+                "@id": "https://www.nationalarchives.gov.uk/PRONOM/fmt/19"
+            },
+            "name": "Network topology of testbed node franz"
+        },
+        {
+            "@id": "franz.bavaria.net.cit.tum.de",
+            "@type": "ExperimentNode",
+            "description": "This entity describes testbed node franz.",
+            "hardware": {
+                "@id": "config/franz/hardware.json"
+            },
+            "name": "franz",
+            "topology": {
+                "@id": "config/franz/topology.json"
+            },
+            "visualizedTopology": {
+                "@id": "config/franz/topology.pdf"
+            }
+        }
+    ]
+}
